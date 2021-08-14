@@ -16,6 +16,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: https://covid-19-service-registry.herokuapp.com/
+      defaultZone: https://covid-19-service-registry.herokuapp.com/eureka
   instance:
     hostname: covid-19-service-registry.herokuapp.com
